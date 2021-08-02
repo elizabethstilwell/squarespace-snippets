@@ -1,0 +1,28 @@
+/* Gradient Overlay on Poster Image 
+
+Add an Image Block with the Poster Design Style to the page you’d like your image on.
+
+Next, go to the Custom CSS Editor. Copy and paste the code below into the Custom CSS Editor box.
+
+Change the background color values #F07C63 and #E45372  to the color codes of your choice.
+
+Make sure you do not have an overlay on the image within Site Styles already. If you do, you can remove it.
+
+*/
+
+.image-block-v2:before { 
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: 1;
+top: 0;
+left: 0;  
+opacity: 0; }
+
+.image-block-v2:hover:before {
+background: -webkit-linear-gradient(to top, #F07C63, #E45372);
+background: linear-gradient(to top, #F07C63, #E45372);
+opacity: .55;
+transition: all .5s ease-in-out; 
+}
