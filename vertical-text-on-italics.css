@@ -1,0 +1,24 @@
+/* Easy Vertical Text 
+
+Next, add the text you’d like to turn vertical on any page. 
+Italicize the text and it will instantly turn into vertical text. It’s recommended you only do this with larger headers and shorter lines of text.
+You may need to position a spacer block around the vertical text to adjust its positioning. It might look odd while editing, so save the page and refresh.
+
+Customize:
+It’s best to keep italicized text in their own text blocks. DO NOT share other font sizes in the same block unless they are all italicized. 
+Vertical text looks best on larger devices, so the code keeps all vertical text horizontal on mobile devices.
+You do not need to change any values.
+*/
+
+@media only screen and (min-width: 640px) { em {
+  width: auto !important;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  font-style: normal !important;
+  transform: rotate(180deg);
+}
+}
+
+em {
+  font-style: normal !important;
+}
