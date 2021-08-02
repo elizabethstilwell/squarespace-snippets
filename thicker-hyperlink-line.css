@@ -1,0 +1,9 @@
+/* Thicker Hyperlink Line: 
+Change h1 to the text property you’d like to target. This can be either h1, h2, h3, or p. 
+Adjust the bottom-border and color values to your liking. */
+
+h1 a {
+  border-bottom: 5px solid #000000 !important;
+  text-decoration: none !important;
+  background-image: none !important;
+}
