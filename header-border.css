@@ -1,0 +1,10 @@
+/* Simple Site Header Border */
+
+
+
+.header-announcement-bar-wrapper {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 20px;
+  width: auto !important;
+}
