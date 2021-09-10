@@ -1,0 +1,24 @@
+Cart Icon Color
+
+.header-actions-action--cart .icon { stroke: #50bdb8!important}
+
+Cart Number Color
+
+.header-actions-action--cart .icon-cart-quantity { color: #50bdb8!important}
+
+Cart Number Color & Size
+
+.header-actions-action--cart .icon-cart-quantity { color: #50bdb8!important; font-size: 2rem}
+
+Remove the cart & leave the number
+
+.header .header-actions-action--cart svg {display:none}
+
+Remove the number & leave the cart
+
+.header-actions-action--cart .icon-cart-quantity {display:none}
+
+Replace cart with your own image
+
+.header .header-actions-action--cart svg {stroke:transparent!important} .header-actions-action--cart .icon-cart-quantity {display:none} 
+.header .header-actions-action--cart {background-image: url(image-url-here); background-size: contain}
