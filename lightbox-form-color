@@ -1,0 +1,18 @@
+/*Lightbox edits*/
+
+.form-wrapper {
+    padding: 20px;
+    background: #ffdd00;
+}
+
+.lightbox-content .form-title {
+  color: #fa2212!important;
+  font-family: 'Ahsing-Regular';
+  font-size: 40px !important;
+}
+
+.form-wrapper .field-list .title {
+  display: block;
+  color: #071137;
+  font-size: 20px;
+}
