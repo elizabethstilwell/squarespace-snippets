@@ -1,0 +1,8 @@
+/*wavy underline*/
+
+
+.wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #edf842;
+}
