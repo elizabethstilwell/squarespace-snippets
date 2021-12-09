@@ -1,0 +1,11 @@
+<!-- Parallax effect for Image Block with Overlap or Collage Design - Add to  Site Code Injection. Copy and paste the code below into the Header Code Injection box. -->
+<!-- Author: Dmitry Kiselyov @_dmitrykiselyov -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var textContainers = [].slice.call(document.querySelectorAll('.sqs-block-image .design-layout-overlap .sqs-dynamic-text-container, .sqs-block-image .design-layout-collage .sqs-dynamic-text-container'));
+  textContainers.forEach(function(container) { container.classList.add('rellax-image-block'); });
+  new Rellax('.rellax-image-block', { speed: 2, center: true });
+});
+</script>
+<!-- end Parallax effect for Image Block with Overlap or Collage Design -->
