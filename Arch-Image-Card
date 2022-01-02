@@ -1,5 +1,0 @@
-// Arch Image - Image Card Block //
-
-.sqs-block-image .design-layout-card img {
-  border-radius: 200px 200px 0px 0px !important;
-}
