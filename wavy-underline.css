@@ -1,4 +1,9 @@
-/*wavy underline*/
+/*
+  wavy underline
+
+  Add in markdown box:
+    <p class="wavy">This text has a wavy line beneath it.</p>
+*/
 
 
 .wavy {
@@ -7,5 +12,3 @@
   text-decoration-color: #edf842;
 }
 
-Add in markdown box:
-<p class="wavy">This text has a wavy line beneath it.</p>

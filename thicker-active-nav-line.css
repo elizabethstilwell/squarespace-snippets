@@ -1,10 +1,11 @@
-/* Thicker Active Nav Line:
-Copy and paste the code below into the Custom CSS Editor box.
-Adjust the border bottom px and color values to your liking. The higher the px, the thicker the line.
-
+/*
+  Thicker Active Nav Line:
+  Copy and paste the code below into the Custom CSS Editor box.
+  Adjust the border bottom px and color values to your liking.
+  The higher the px, the thicker the line.
 */
 
 .header-nav-item--active a {
-    background-image: none !important;
-    border-bottom: 6px solid #2DDA96;
+  background-image: none !important;
+  border-bottom: 6px solid #2DDA96;
 }

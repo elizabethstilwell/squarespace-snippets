@@ -1,13 +1,15 @@
-/* Animated Gradient Button 
+/** 
+  Animated Gradient Button 
 
-Copy and paste the code below into the Custom CSS Editor box.
+  Copy and paste the code below into the Custom CSS Editor box.
 
-Change the background color values to the colors of your choice.
+  Change the background color values to the colors of your choice.
 
-The code works for the medium button block. If you want to modify a small or large button, replace .sqs-block-button-element--medium with .sqs-block-button-element--small or .sqs-block-button-element--large.
+  The code works for the medium button block. If you want to modify
+  a small or large button, replace .sqs-block-button-element--medium
+  with .sqs-block-button-element--small or .sqs-block-button-element--large.
 
-Do not change any values to the Animation Keyframes.
-
+  Do not change any values to the Animation Keyframes.
 */
 
 .sqs-block-button .sqs-block-button-element--medium {
@@ -18,7 +20,7 @@ Do not change any values to the Animation Keyframes.
   animation: Gradient 10s ease infinite !important;
 }
 
-// Animation Keyframes //
+/* Animation Keyframes */
 
 @-webkit-keyframes Gradient {
   0%{background-position:0% 50%}
