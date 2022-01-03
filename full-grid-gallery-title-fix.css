@@ -1,11 +1,14 @@
-/* Full Grid Gallery Title: fixes when cut off for size:
+/*
+  Full Grid Gallery Title: fixes when cut off for size:
 
-Add a Grid Gallery block to any page and upload your images. Add your title descriptions to each image and check the “Show Title” option in the design tab.
+  Add a Grid Gallery block to any page and upload your images.
+  Add your title descriptions to each image and check the 
+  “Show Title” option in the design tab.
 
-Once you save the page, go to the Custom CSS Editor. Copy and paste the code below into the Custom CSS Editor box.
+  Once you save the page, go to the Custom CSS Editor. Copy and 
+  paste the code below into the Custom CSS Editor box.
 
-Adjust the padding, font size, and color values to your liking.
-
+  Adjust the padding, font size, and color values to your liking.
 */
 
 .sqs-gallery-block-grid.sqs-gallery-block-meta-only-title .margin-wrapper .image-slide-title {

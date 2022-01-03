@@ -1,0 +1,42 @@
+/**
+  * Full Width Image Card - Page Section
+  *
+  *  Add an Image Card to any page section. Make sure the
+  *  Image Card  is by itself in this section – do not add
+  *  any additional blocks.
+  *
+  *  Set the page section’s format settings to the following:
+  *
+  *  Section Height: 10
+  *  Content Width: Large
+  *  Content Alignment: Middle
+  
+  * Replace [data-section-id="012345"] with the page section’s ID. 
+  * This will make the page section full width, resulting in the
+  * Image Card Block being full width as well.
+  *
+  */
+
+[data-section-id="012345"] {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+[data-section-id="012345"] .content-wrapper  {
+  padding: auto !important;
+  margin: 0px auto;
+  display: contents;
+}
+
+[data-section-id="012345"] .sqs-layout,
+[data-section-id="012345"] .sqs-row,
+[data-section-id="012345"]  .sqs-block {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+/* Full Width Image Card - Text Padding */
+  
+.image-card-wrapper .sqs-dynamic-text-container {
+  padding: 40px !important;
+}
+
